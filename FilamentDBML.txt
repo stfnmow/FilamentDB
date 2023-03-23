@@ -1,0 +1,48 @@
+Table Haendler {
+  id int [pk, increment]
+  Name varchar
+  url varchar
+}
+
+Table Sorte {
+  id int [pk, increment]
+  Haendler_id int [ref: > Haendler.id]
+  Name varchar
+  Material Materialien
+  Farbe varchar
+  Dicke float
+}
+
+Enum Materialien {
+  PLA
+  PETG
+  TPU
+}
+
+Table Rolle {
+  id int [pk, increment]
+  Sorte_id int [ref: > Sorte.id]
+  Gewicht int
+  spool bool
+  Kaufdatum date
+  Oeffnungsdatum date
+  RestgewichtCura int
+  RestgewichtWage int
+}
+
+Table printjob {
+  id int [pk, increment]
+  modell_id int [ref: > Modell.id]
+  Druckdatum date
+  Rolle_id int [ref: > Rolle.id]
+  Dauer time
+  GewichtCura int
+  GewichtWage int
+}
+
+Table Modell {
+  id int [pk, increment]
+  name varchar
+  version int
+  Beschreibung text
+}

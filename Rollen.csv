@@ -1,0 +1,12 @@
+ID,Sorte_id,Gewicht,spool,Kaufdatum,Kaufpreis,,
+11,"PLA Filament - 1,75 mm - Natur",800,false,25.02.23,"15,95",,neu
+10,"PLA Filament - 1,75 mm - Schwarz",800,false,25.02.23,"15,95",,neu
+9,"PLA Filament - 1,75 mm - Tonweiß matt",800,false,25.02.23,"16,95",,neu
+8,"PETG Filament - 1,75 mm - Natur",800,false,25.02.23,"21,45",,neu
+7,TPU V2 Filament (flexibel) 50 g Sample,50,false,25.02.23,"3,95",,neu
+6,"PLA Filament - 1,75 mm - Natur",800,true,10.09.22,"16,45",,offen
+5,"PLA Filament - 1,75 mm - Schwarz ",800,true,10.09.22,"16,45",,offen
+4,"PLA Filament - 1,75 mm - Natur",800,true,16.04.22,"16,45",,leer
+3,"PLA Filament 50 g Sample - 1,75 mm - Thermo-Rot",50,false,16.04.22,"2,95",,neu
+2,"PLA Filament 50 g Sample - 1,75 mm - Glow-Grün V2",50,false,16.04.22,"2,95",,neu
+1,Creality Ender 5 Sample PLA,200,,,0,,leer
